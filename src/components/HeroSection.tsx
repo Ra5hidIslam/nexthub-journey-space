@@ -17,12 +17,12 @@ const HeroSection = () => {
           <div className="space-y-6 animate-fade-in">
             <p className="text-portfolio-blue font-medium">Hello, I'm</p>
             <h1 className="text-portfolio-darkBlue">
-              <span className="block">John Doe</span>
-              <span className="text-portfolio-blue">Full Stack Developer</span>
+              <span className="block">Rasid Ul Islam</span>
+              <span className="text-portfolio-blue">Data Scientist</span>
             </h1>
             <p className="text-portfolio-gray max-w-lg text-lg">
-              I build exceptional digital experiences that make life easier and more enjoyable.
-              Specializing in creating robust web applications with modern technologies.
+              Passionate Data Scientist with expertise in building end-to-end machine learning pipelines, 
+              computer vision solutions, and NLP applications. Skilled in React, Python, Flask, Docker, and AWS.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               <Button 

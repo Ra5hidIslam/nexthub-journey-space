@@ -1,41 +1,45 @@
 
-import { Code, Globe, Server, Database } from 'lucide-react';
+import { Code, Database, Server, Cpu } from 'lucide-react';
 
 const skills = [
-  "JavaScript (ES6+)",
-  "TypeScript",
+  "Python",
+  "JavaScript",
+  "C++",
+  "C",
+  "TensorFlow",
+  "PyTorch",
+  "Pandas",
   "React",
-  "Node.js",
-  "Express",
+  "Flask",
+  "Docker",
+  "AWS",
   "MongoDB",
-  "SQL",
-  "GraphQL",
-  "REST APIs",
-  "HTML/CSS",
-  "Tailwind CSS",
-  "Git",
+  "OpenCV",
+  "EasyOCR",
+  "Rasa",
+  "spaCy",
 ];
 
 const services = [
   {
+    icon: <Cpu className="w-10 h-10 text-portfolio-blue" />,
+    title: "Machine Learning",
+    description: "I build end-to-end machine learning pipelines and models to solve complex problems with high accuracy."
+  },
+  {
     icon: <Code className="w-10 h-10 text-portfolio-blue" />,
-    title: "Frontend Development",
-    description: "I build responsive, interactive user interfaces that provide an exceptional user experience across all devices."
+    title: "Computer Vision",
+    description: "I develop OCR solutions and image classification systems using state-of-the-art computer vision techniques."
   },
   {
     icon: <Server className="w-10 h-10 text-portfolio-blue" />,
-    title: "Backend Development",
-    description: "I develop robust server-side applications and APIs that power your web applications securely and efficiently."
+    title: "NLP Solutions",
+    description: "I create intelligent chatbots and natural language processing applications with multilingual capabilities."
   },
   {
     icon: <Database className="w-10 h-10 text-portfolio-blue" />,
-    title: "Database Design",
-    description: "I create well-structured database schemas and implement efficient queries to ensure optimal data management."
-  },
-  {
-    icon: <Globe className="w-10 h-10 text-portfolio-blue" />,
-    title: "Full Stack Solutions",
-    description: "I deliver end-to-end web applications that integrate frontend and backend seamlessly."
+    title: "Full Stack Development",
+    description: "I deliver end-to-end web applications that integrate frontend (React) and backend (Flask) with database solutions."
   }
 ];
 
@@ -53,20 +57,20 @@ const AboutSection = () => {
             <h3 className="text-portfolio-darkBlue">Get to know me!</h3>
             <div className="space-y-4 text-portfolio-gray">
               <p>
-                I'm a passionate <span className="text-portfolio-blue font-medium">Full Stack Web Developer</span> with 
-                a focus on creating clean, efficient, and user-friendly web applications.
+                I'm a passionate <span className="text-portfolio-blue font-medium">Data Scientist</span> with 
+                expertise in building end-to-end machine learning pipelines, computer vision solutions, and NLP applications.
               </p>
               <p>
-                With over 5 years of experience in the tech industry, I've worked with startups and established 
-                companies to deliver high-quality solutions that meet business objectives and exceed user expectations.
+                With experience in the data science field, I've worked on various projects including document validation systems,
+                multilingual chatbots, and image classification applications that solve real-world problems.
               </p>
               <p>
-                My approach combines technical expertise with a keen eye for design, ensuring that the applications 
-                I build are not only functional but also aesthetically pleasing and intuitive to use.
+                I graduated from Heritage Institute of Technology, Kolkata with a B.Tech in Electronics and Instrumentation Engineering in 2021,
+                and have since been applying my technical skills to create innovative AI solutions.
               </p>
               <p>
-                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
-                or sharing my knowledge through blog posts and community engagement.
+                I'm particularly interested in leveraging AI technologies to address practical challenges and am always exploring
+                new techniques and tools to enhance my capabilities as a data scientist.
               </p>
             </div>
           </div>

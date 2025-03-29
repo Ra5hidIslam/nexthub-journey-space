@@ -4,33 +4,33 @@ import { Button } from '@/components/ui/button';
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with secure payment processing, user authentication, and product management.",
-    tags: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
+    title: "House Plant Classification",
+    description: "An end-to-end image classification website using React (frontend), Flask (backend), and MongoDB. Used transfer learning (EfficientNet0) on ~14k images with 96% accuracy.",
+    tags: ["React", "Flask", "MongoDB", "TensorFlow", "Docker", "AWS"],
     image: "bg-portfolio-blue/20",
     githubUrl: "https://github.com",
     liveUrl: "https://example.com"
   },
   {
-    title: "Task Management App",
-    description: "A collaborative task tracking application with real-time updates, user roles, and progress visualization.",
-    tags: ["React", "Firebase", "Tailwind CSS", "Redux"],
+    title: "Medhavi.com",
+    description: "Led a team of four as the lead developer to create a website for hosting tests, Q&As, and blogs targeting JEE and NEET aspirants. Designed the architecture with React, Flask, and MongoDB.",
+    tags: ["React", "Flask", "MongoDB", "Team Lead"],
     image: "bg-portfolio-blue/30",
     githubUrl: "https://github.com",
     liveUrl: "https://example.com"
   },
   {
-    title: "Social Media Dashboard",
-    description: "An analytics platform that aggregates and visualizes social media performance data across multiple channels.",
-    tags: ["TypeScript", "Next.js", "Chart.js", "PostgreSQL"],
+    title: "PAN Card Information Retrieval",
+    description: "Developed a pipeline to isolate a PAN card from its background and extract essential details. Utilized OpenCV for image processing and EasyOCR for accurate text retrieval.",
+    tags: ["Python", "OpenCV", "EasyOCR", "Image Processing"],
     image: "bg-portfolio-blue/25",
     githubUrl: "https://github.com",
     liveUrl: "https://example.com"
   },
   {
-    title: "Weather Application",
-    description: "A weather forecasting application with location-based services, historical data, and interactive maps.",
-    tags: ["React", "OpenWeather API", "Leaflet", "CSS Modules"],
+    title: "Digit Recognizer (Kaggle)",
+    description: "Built a CNN model on Kaggle's Digit Recognizer competition to classify handwritten digits (MNIST dataset). Achieved a 99% accuracy rate, demonstrating strong model performance.",
+    tags: ["Python", "TensorFlow", "CNN", "Kaggle"],
     image: "bg-portfolio-blue/15",
     githubUrl: "https://github.com",
     liveUrl: "https://example.com"
@@ -45,7 +45,7 @@ const ProjectsSection = () => {
           <h2 className="text-portfolio-darkBlue mb-4">My Projects</h2>
           <div className="h-1 w-20 bg-portfolio-blue mx-auto"></div>
           <p className="mt-6 text-portfolio-gray max-w-2xl mx-auto">
-            Here are some of the projects I've worked on. Each project represents a unique challenge and solution.
+            Here are some of the key projects I've worked on. Each one represents unique challenges and solutions in data science and web development.
           </p>
         </div>
         

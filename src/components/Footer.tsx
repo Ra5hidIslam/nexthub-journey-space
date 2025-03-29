@@ -16,9 +16,9 @@ const Footer = () => {
       <div className="section-container">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <h3 className="text-2xl font-bold mb-2">Portfolio</h3>
+            <h3 className="text-2xl font-bold mb-2">Rasid Ul Islam</h3>
             <p className="text-gray-300 max-w-md">
-              Building exceptional digital experiences with modern technologies.
+              Data Scientist combining AI with modern technologies to build innovative solutions.
             </p>
           </div>
           
@@ -33,7 +33,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-300 text-sm">
-            © {currentYear} John Doe. All rights reserved.
+            © {currentYear} Rasid Ul Islam. All rights reserved.
           </p>
           
           <div className="mt-4 md:mt-0">
