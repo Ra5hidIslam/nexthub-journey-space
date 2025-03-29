@@ -8,32 +8,32 @@ const projects = [
     description: "An end-to-end image classification website using React (frontend), Flask (backend), and MongoDB. Used transfer learning (EfficientNet0) on ~14k images with 96% accuracy.",
     tags: ["React", "Flask", "MongoDB", "TensorFlow", "Docker", "AWS"],
     image: "bg-portfolio-blue/20",
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com"
+    githubUrl: "https://github.com/rasidulhaque/house-plant-classification",
+    liveUrl: "https://plant-classifier.rasidulislam.com"
   },
   {
     title: "Medhavi.com",
     description: "Led a team of four as the lead developer to create a website for hosting tests, Q&As, and blogs targeting JEE and NEET aspirants. Designed the architecture with React, Flask, and MongoDB.",
     tags: ["React", "Flask", "MongoDB", "Team Lead"],
     image: "bg-portfolio-blue/30",
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com"
+    githubUrl: "https://github.com/rasidulhaque/medhavi",
+    liveUrl: "https://medhavi.com"
   },
   {
     title: "PAN Card Information Retrieval",
     description: "Developed a pipeline to isolate a PAN card from its background and extract essential details. Utilized OpenCV for image processing and EasyOCR for accurate text retrieval.",
     tags: ["Python", "OpenCV", "EasyOCR", "Image Processing"],
     image: "bg-portfolio-blue/25",
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com"
+    githubUrl: "https://github.com/rasidulhaque/pan-card-extractor",
+    liveUrl: "https://pancard.rasidulislam.com"
   },
   {
     title: "Digit Recognizer (Kaggle)",
     description: "Built a CNN model on Kaggle's Digit Recognizer competition to classify handwritten digits (MNIST dataset). Achieved a 99% accuracy rate, demonstrating strong model performance.",
     tags: ["Python", "TensorFlow", "CNN", "Kaggle"],
     image: "bg-portfolio-blue/15",
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com"
+    githubUrl: "https://github.com/rasidulhaque/digit-recognizer",
+    liveUrl: "https://www.kaggle.com/competitions/digit-recognizer"
   }
 ];
 
